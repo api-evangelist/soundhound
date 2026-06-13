@@ -1,0 +1,56 @@
+name: SoundHound FinOps
+description: Financial operations guidance for teams consuming SoundHound APIs. Both
+  the Houndify Voice AI API and the Music Fingerprint Identification API use usage-based
+  pricing models, making cost management critical for production deployments. The
+  Houndify free developer tier is suitable for prototyping at no cost; commercial
+  and enterprise tiers require direct negotiation with SoundHound.
+url: https://www.soundhound.com/contact/
+created: '2026-06-13'
+modified: '2026-06-13'
+apis:
+  - name: Houndify Voice AI API
+    pricingModel: usage-based
+    billingUnit: per query
+    freeTier: true
+    freeTierDetails: Free developer account with low-volume quota for prototyping
+    commercialPricing: custom per query; contact SoundHound sales
+    costDrivers:
+      - Number of voice queries (audio input)
+      - Number of text queries (text input)
+      - Query volume per month
+      - Number of deployed applications (clients)
+    costOptimizationTips:
+      - Use text queries instead of voice queries where audio is not required, as
+        they may be lower cost
+      - Implement client-side caching for repeated identical queries to reduce API
+        calls
+      - Monitor query volume via the Houndify analytics dashboard to avoid unexpected
+        quota overages
+      - Negotiate volume discounts for high-volume production workloads
+      - Use conversation state to maintain context rather than repeating full context
+        per query
+    budgetingNotes: Pricing is not publicly listed; obtain a quote from SoundHound
+      sales before committing to commercial deployment. Free tier is useful for cost-free
+      prototyping.
+    pricingURL: https://www.soundhound.com/contact/
+  - name: SoundHound Music Fingerprint Identification API
+    pricingModel: usage-based
+    billingUnit: per query
+    freeTier: false
+    freeTierDetails: Evaluation access available by contacting SoundHound directly
+    commercialPricing: custom enterprise pricing; contact SoundHound sales
+    costDrivers:
+      - Number of music identification queries
+      - Audio stream duration per query
+      - Query volume per month
+      - Deployment scale and geography
+    costOptimizationTips:
+      - Stream the minimum required audio (2 seconds minimum) to reduce data transfer
+        costs
+      - Implement fingerprint caching for repeated identification of the same content
+      - Batch or queue non-real-time queries to smooth out peak usage and manage quota
+      - Negotiate enterprise volume discounts for large-scale deployments
+    budgetingNotes: This API targets enterprise deployments; there is no self-service
+      pricing. Obtain a quote and SLA terms directly from SoundHound before budgeting
+      for production usage.
+    pricingURL: https://www.soundhound.com/contact/

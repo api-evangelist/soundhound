@@ -1,0 +1,46 @@
+name: SoundHound Music Fingerprint Identification API Plans
+description: Pricing and plan tiers for the SoundHound Music Fingerprint Identification
+  API. Access is available via direct engagement with SoundHound for enterprise evaluation.
+  Pricing is custom and negotiated based on usage volume and deployment requirements.
+url: https://www.soundhound.com/contact/
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Evaluation
+    description: Evaluation access for qualified enterprises. Contact SoundHound directly
+      to request access to the Music Fingerprint Identification API for testing and
+      integration assessment.
+    url: https://www.soundhound.com/contact/
+    price: 0
+    currency: USD
+    unit: evaluation period
+    features:
+      - API access for evaluation period
+      - Music identification from 2 to 10 seconds of audio
+      - Sub-second latency for streamed requests
+      - Technical documentation and integration support
+      - Noise-robust identification
+    rateLimit:
+      requests: limited
+      period: evaluation
+      notes: Quota defined per evaluation agreement
+  - name: Enterprise
+    description: Production tier for enterprise deployments. Pricing is custom and
+      based on query volume, geographic region, and contractual terms. Contact SoundHound
+      sales for pricing.
+    url: https://www.soundhound.com/contact/
+    price: custom
+    currency: USD
+    unit: per query
+    features:
+      - High-accuracy music fingerprint identification
+      - 2 to 10 seconds of audio required per query
+      - Sub-second latency for streamed requests
+      - Noise-robust recognition engine
+      - Dedicated integration and support team
+      - SLA guarantees
+      - Custom volume tiers
+    rateLimit:
+      requests: custom
+      period: monthly
+      notes: Negotiated per enterprise contract

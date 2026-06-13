@@ -1,0 +1,122 @@
+name: SoundHound
+description: SoundHound AI is a voice AI and audio intelligence platform offering
+  the Houndify conversational voice assistant API and a music fingerprint identification
+  API. Developers can build voice-enabled applications using HTTP and WebSocket endpoints
+  that accept audio or text queries and return structured JSON, powered by SoundHound's
+  proprietary Speech-to-Meaning and Deep Meaning Understanding technologies.
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Voice AI
+  - Conversational AI
+  - Music Recognition
+  - Audio Intelligence
+  - Speech Recognition
+  - Natural Language Processing
+apis:
+  - name: Houndify Voice AI API
+    description: The Houndify platform provides HTTP and WebSocket APIs that accept
+      text or audio queries and return actionable JSON responses. Built on SoundHound's
+      Speech-to-Meaning and Deep Meaning Understanding technologies, it enables developers
+      to build context-aware conversational voice assistants with support for multiple
+      languages, conversation state management, and real-time partial transcripts.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.soundhound.com/voice-ai-products/developer/
+    baseURL: https://api.houndify.com
+    tags:
+      - Voice AI
+      - Conversational AI
+      - Speech Recognition
+      - Natural Language Processing
+      - Text Query
+      - Audio Query
+    properties:
+      - type: Documentation
+        url: https://www.soundhound.com/voice-ai-products/developer/
+      - type: GettingStarted
+        url: https://www.soundhound.com/voice-ai-products/developer/
+      - type: SDKs
+        url: https://github.com/soundhound
+      - type: GitHubOrganization
+        url: https://github.com/soundhound
+      - type: PythonSDK
+        url: https://pypi.org/project/Houndify/
+      - type: GoSDK
+        url: https://github.com/soundhound/houndify-sdk-go
+      - type: iOSSDK
+        url: https://github.com/soundhound/houndify-sdk-ios
+      - type: WebSDKExample
+        url: https://github.com/soundhound/hound-sdk-web-example
+      - type: TermsOfService
+        url: https://www.houndify.com/terms
+      - type: Signup
+        url: https://www.houndify.com/signup
+      - type: Login
+        url: https://www.houndify.com/login
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/plans/houndify-voice-ai.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/rate-limits/houndify-voice-ai.yml
+    contact:
+      - FN: SoundHound Developer Platform
+        url: https://www.soundhound.com/contact/
+        email: ''
+  - name: SoundHound Music Fingerprint Identification API
+    description: A high-accuracy music recognition API capable of identifying copyrighted
+      music from as little as 2 to 10 seconds of audio with sub-second latency for
+      streamed requests. Designed for enterprise integration with built-in noise robustness
+      and minimal audio data requirements, the API delivers fast and reliable music
+      identification for applications requiring audio intelligence.
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.soundhound.com/soundhound-music-id-one-sheet/
+    baseURL: https://api.soundhound.com
+    tags:
+      - Music Recognition
+      - Audio Intelligence
+      - Audio Fingerprinting
+      - Music Identification
+      - Content Recognition
+    properties:
+      - type: Documentation
+        url: https://www.soundhound.com/voice-ai-products/developer/
+      - type: ProductOverview
+        url: https://www.soundhound.com/soundhound-music-id-one-sheet/
+      - type: Contact
+        url: https://www.soundhound.com/contact/
+      - type: Plans
+        url: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/plans/music-id.yml
+      - type: RateLimits
+        url: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/rate-limits/music-id.yml
+    contact:
+      - FN: SoundHound Music API Sales
+        url: https://www.soundhound.com/contact/
+        email: ''
+common:
+  - type: Developer Platform
+    url: https://www.soundhound.com/voice-ai-products/developer/
+  - type: Blog
+    url: https://www.soundhound.com/voice-ai-resources/
+  - type: Newsroom
+    url: https://www.soundhound.com/newsroom/press-releases/
+  - type: GitHub
+    url: https://github.com/soundhound
+  - type: TermsOfService
+    url: https://www.houndify.com/terms
+  - type: Contact
+    url: https://www.soundhound.com/contact/
+  - type: Signup
+    url: https://www.houndify.com/signup
+  - type: Login
+    url: https://www.houndify.com/login
+  - type: StatusPage
+    url: https://www.saashub.com/soundhound-status
+  - type: InvestorRelations
+    url: https://investors.soundhound.com/news-releases
+  - type: FinOps
+    url: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/finops/soundhound.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

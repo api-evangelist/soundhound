@@ -1,0 +1,52 @@
+name: Houndify Voice AI API Plans
+description: Pricing and plan tiers for the Houndify Voice AI developer platform.
+  Houndify uses a usage-based pricing model. Free developer accounts provide access
+  to all APIs and SDKs for prototyping. Commercial plans are priced per query based
+  on volume and organization size.
+url: https://www.soundhound.com/voice-ai-products/developer/
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Developer (Free)
+    description: Free tier for independent developers and prototyping. Provides access
+      to all Houndify APIs, voice and text endpoints, full SDK access, analytics dashboard,
+      and query logs. Intended for low-volume development and testing.
+    url: https://www.houndify.com/signup
+    price: 0
+    currency: USD
+    unit: per month
+    features:
+      - Access to all Houndify APIs
+      - Voice and text query endpoints
+      - Full SDK support (Android, iOS, JavaScript, React Native, Java, Go, C++, C#, Python)
+      - Data analytics and usage monitoring
+      - Query logs and debugging tools
+      - Team collaboration support
+      - FAQ forums and integration support
+      - Content domain access
+    rateLimit:
+      requests: limited
+      period: monthly
+      notes: Low-volume; exact quota set by SoundHound at their discretion
+  - name: Commercial
+    description: Usage-based pricing for production applications. Charges are applied
+      per query made by end users. Rate and volume discounts available for large organizations.
+      Contact SoundHound sales for a custom quote.
+    url: https://www.soundhound.com/contact/
+    price: custom
+    currency: USD
+    unit: per query
+    features:
+      - All Developer tier features
+      - Production-grade SLA
+      - Higher query quotas
+      - Priority engineering support
+      - Custom domain and skill integration
+      - Edge and cloud deployment options
+      - 100+ language support
+      - Bring-your-own-LLM integration
+      - MCP server support
+    rateLimit:
+      requests: custom
+      period: monthly
+      notes: Quota negotiated per contract; contact sales

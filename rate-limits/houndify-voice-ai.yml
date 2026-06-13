@@ -1,0 +1,40 @@
+name: Houndify Voice AI API Rate Limits
+description: Rate limiting policy for the Houndify Voice AI API. Specific numeric
+  limits are not publicly disclosed and are set by SoundHound at their discretion
+  per plan tier. Free developer accounts are subject to low-volume quotas; commercial
+  accounts have negotiated quotas. The terms of service prohibit benchmark or stress
+  testing of the API.
+url: https://www.houndify.com/terms
+created: '2026-06-13'
+modified: '2026-06-13'
+rateLimits:
+  - name: Developer Free Tier
+    description: Low-volume quota intended for development and testing. Exact numeric
+      limits are not published; SoundHound sets quotas at their discretion per account.
+    plan: Developer (Free)
+    window: monthly
+    requests: unspecified
+    notes: Quota determined by SoundHound; intended for tinkering and low-volume testing
+    enforcement: Requests exceeding quota may be throttled or rejected per SoundHound
+      discretion
+  - name: Commercial Tier
+    description: Higher volume quota for production applications. Exact limits negotiated
+      per commercial agreement. Volume discounts available.
+    plan: Commercial
+    window: monthly
+    requests: custom
+    notes: Quota defined in commercial contract; contact sales for details
+    enforcement: Contractual; SLA applies
+policies:
+  - name: Quota Enforcement
+    description: SoundHound reserves the right to limit bandwidth, storage, or processing
+      power at their discretion. Applications must not exceed quotas as set by SoundHound.
+    source: https://www.houndify.com/terms
+  - name: Stress Testing Prohibition
+    description: Developers are prohibited from conducting benchmark or stress tests
+      on the Houndify API or publishing performance data relating to the API.
+    source: https://www.houndify.com/terms
+  - name: Authentication
+    description: Each application requires a Client ID and Client Key obtained via
+      registration at houndify.com. Credentials are passed per-request.
+    source: https://www.houndify.com/terms

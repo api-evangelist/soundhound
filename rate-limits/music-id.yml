@@ -1,0 +1,35 @@
+name: SoundHound Music Fingerprint Identification API Rate Limits
+description: Rate limiting policy for the SoundHound Music Fingerprint Identification
+  API. This is an enterprise API accessed by direct agreement with SoundHound. Rate
+  limits and quotas are defined per contract and are not publicly disclosed.
+url: https://www.soundhound.com/contact/
+created: '2026-06-13'
+modified: '2026-06-13'
+rateLimits:
+  - name: Evaluation Tier
+    description: Limited rate access during evaluation period as agreed with SoundHound.
+    plan: Evaluation
+    window: evaluation period
+    requests: unspecified
+    notes: Defined per evaluation agreement; contact SoundHound for access
+    enforcement: Per evaluation agreement terms
+  - name: Enterprise Tier
+    description: Production rate limits negotiated per enterprise contract based on
+      expected query volume and deployment scale.
+    plan: Enterprise
+    window: monthly
+    requests: custom
+    notes: Defined in enterprise contract; volume discounts available
+    enforcement: Contractual SLA
+policies:
+  - name: Minimum Audio Duration
+    description: Queries require between 2 and 10 seconds of audio for reliable music
+      fingerprint identification.
+    source: https://www.soundhound.com/soundhound-music-id-one-sheet/
+  - name: Latency
+    description: Sub-second identification latency for streamed audio requests.
+    source: https://www.soundhound.com/soundhound-music-id-one-sheet/
+  - name: Access
+    description: API access is available by contacting SoundHound directly. Evaluation
+      requests should be directed to the SoundHound developer contact channel.
+    source: https://www.soundhound.com/contact/

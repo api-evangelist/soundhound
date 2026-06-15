@@ -10,49 +10,92 @@
       "url": "https://www.soundhound.com/voice-ai-blog/meet-oasys/",
       "date": "2026-05-05",
       "description": "Introduces a voice-native conversational AI platform for building reliable AI agents that handle operations, service, and commerce for brands.",
-      "tags": ["agentic AI", "voice AI", "OASYS", "conversational AI"]
+      "tags": [
+        "agentic AI",
+        "voice AI",
+        "OASYS",
+        "conversational AI"
+      ]
     },
     {
       "title": "10 Agentic Use Cases and Examples",
       "url": "https://www.soundhound.com/voice-ai-blog/10-agentic-use-cases-and-examples/",
       "date": "2026-04-24",
       "description": "Explores agentic AI applications across multiple sectors including financial services, restaurants, transportation, healthcare, retail, hospitality, and insurance.",
-      "tags": ["agentic AI", "use cases", "voice AI", "industry"]
+      "tags": [
+        "agentic AI",
+        "use cases",
+        "voice AI",
+        "industry"
+      ]
     },
     {
       "title": "What Is Agentic AI? How Agentic AI Supports Fast-Growing Businesses",
       "url": "https://www.soundhound.com/voice-ai-blog/what-is-agentic-ai/",
       "date": "2026-04-22",
       "description": "Explains autonomous AI agent functionality, distinguishes it from generative AI, and demonstrates business workflow automation benefits.",
-      "tags": ["agentic AI", "generative AI", "business automation"]
+      "tags": [
+        "agentic AI",
+        "generative AI",
+        "business automation"
+      ]
     },
     {
       "title": "Human-Assisted Understanding: Human-in-the-Loop AI Solution",
       "url": "https://www.soundhound.com/voice-ai-blog/human-assisted-understanding-human-in-the-loop-ai/",
       "date": "2026-03-05",
       "description": "Discusses human-in-the-loop AI solutions for improving accuracy and reliability in voice and conversational AI systems.",
-      "tags": ["human-in-the-loop", "AI accuracy", "conversational AI"]
+      "tags": [
+        "human-in-the-loop",
+        "AI accuracy",
+        "conversational AI"
+      ]
     },
     {
       "title": "Conversational AI in Healthcare: Benefits and Use Cases",
       "url": "https://www.soundhound.com/voice-ai-blog/conversational-ai-in-healthcare/",
       "date": "2026-05-28",
       "description": "Examines how conversational AI transforms healthcare delivery for both providers and patients.",
-      "tags": ["healthcare", "conversational AI", "voice AI", "use cases"]
+      "tags": [
+        "healthcare",
+        "conversational AI",
+        "voice AI",
+        "use cases"
+      ]
     },
     {
       "title": "Generative AI vs Agentic AI: Key Differences and Use Cases",
       "url": "https://www.soundhound.com/voice-ai-blog/agentic-ai-vs-generative-ai/",
       "date": "2026-05-20",
       "description": "Contrasts generative and agentic AI, noting that agentic systems operate autonomously and manage complex workflows.",
-      "tags": ["generative AI", "agentic AI", "comparison"]
+      "tags": [
+        "generative AI",
+        "agentic AI",
+        "comparison"
+      ]
     },
     {
       "title": "Chatbots vs Conversational AI: Key Differences and When to Use Each",
       "url": "https://www.soundhound.com/voice-ai-blog/chatbots-vs-conversational-ai/",
       "date": "2026-05-07",
       "description": "Compares chatbots with conversational AI, emphasizing conversational AI's customer experience transformation capabilities.",
-      "tags": ["chatbots", "conversational AI", "customer experience"]
+      "tags": [
+        "chatbots",
+        "conversational AI",
+        "customer experience"
+      ]
     }
-  ]
+  ],
+  "repo": "soundhound",
+  "feeds": [
+    {
+      "source": "https://www.soundhound.com/voice-ai-products/developer/",
+      "feed_url": "https://www.soundhound.com/voice-ai-products/developer/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }

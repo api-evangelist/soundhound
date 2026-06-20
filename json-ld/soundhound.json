@@ -5,7 +5,7 @@
   "name": "SoundHound AI",
   "url": "https://www.soundhound.com/",
   "description": "SoundHound AI is a voice AI and audio intelligence platform offering the Houndify conversational voice assistant API and a music fingerprint identification API.",
-  "logo": "https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "contactPoint": {
     "@type": "ContactPoint",
     "url": "https://www.soundhound.com/contact/",

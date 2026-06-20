@@ -4,7 +4,7 @@ description: SoundHound AI is a voice AI and audio intelligence platform offerin
   API. Developers can build voice-enabled applications using HTTP and WebSocket endpoints
   that accept audio or text queries and return structured JSON, powered by SoundHound's
   proprietary Speech-to-Meaning and Deep Meaning Understanding technologies.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -23,7 +23,7 @@ apis:
       Speech-to-Meaning and Deep Meaning Understanding technologies, it enables developers
       to build context-aware conversational voice assistants with support for multiple
       languages, conversation state management, and real-time partial transcripts.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.soundhound.com/voice-ai-products/developer/
     baseURL: https://api.houndify.com
     tags:
@@ -70,7 +70,7 @@ apis:
       streamed requests. Designed for enterprise integration with built-in noise robustness
       and minimal audio data requirements, the API delivers fast and reliable music
       identification for applications requiring audio intelligence.
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.soundhound.com/soundhound-music-id-one-sheet/
     baseURL: https://api.soundhound.com
     tags:

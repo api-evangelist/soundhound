@@ -95,6 +95,8 @@ apis:
         url: https://www.soundhound.com/contact/
         email: ''
 common:
+  - type: DomainSecurity
+    url: security/soundhound-domain-security.yml
   - type: Developer Platform
     url: https://www.soundhound.com/voice-ai-products/developer/
   - type: Blog

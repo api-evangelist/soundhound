@@ -4,6 +4,17 @@ description: SoundHound AI is a voice AI and audio intelligence platform offerin
   API. Developers can build voice-enabled applications using HTTP and WebSocket endpoints
   that accept audio or text queries and return structured JSON, powered by SoundHound's
   proprietary Speech-to-Meaning and Deep Meaning Understanding technologies.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown

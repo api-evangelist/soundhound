@@ -38,6 +38,7 @@ tags:
 - Audio Intelligence
 - Speech Recognition
 - Natural Language Processing
+- Music
 apis:
 - name: Houndify Voice AI API
   description: The Houndify platform provides HTTP and WebSocket APIs that accept text or audio queries

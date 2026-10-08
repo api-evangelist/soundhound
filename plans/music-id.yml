@@ -49,3 +49,39 @@ plans:
       requests: custom
       period: monthly
       notes: Negotiated per enterprise contract
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - negotiated
+  units: []
+  plans:
+  - name: Developer (Free)
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Commercial
+    access: other
+    model: negotiated
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Evaluation
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods: []
+  - name: Enterprise
+    access: other
+    model: negotiated
+    model_how: derived
+    units:
+    - other
+    periods: []

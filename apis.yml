@@ -116,6 +116,10 @@ apis:
     url: https://www.soundhound.com/contact/
     email: ''
 common:
+- type: Plans
+  url: plans/houndify-voice-ai.yml
+- type: RateLimits
+  url: rate-limits/houndify-voice-ai.yml
 - type: Website
   url: https://soundhound.com
 - type: DomainSecurity

@@ -64,55 +64,107 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-SoundHound AI is a voice AI and audio intelligence platform. This repository contains an APIs.json 0.19 profile cataloging SoundHound's public developer APIs, including the Houndify conversational voice assistant API and the Music Fingerprint Identification API.
+SoundHound AI is a voice AI and audio intelligence platform offering the Houndify conversational voice assistant API and a music fingerprint identification API. Developers can build voice-enabled applications using HTTP and WebSocket endpoints that accept audio or text queries and return structured JSON, powered by SoundHound's proprietary Speech-to-Meaning and Deep Meaning Understanding technologies.
 
-## APIs
+**Areas:** Voice AI · Conversational AI · Music Recognition · Audio Intelligence · Speech Recognition · Natural Language Processing · Music
 
-### Houndify Voice AI API
+## SoundHound on APIs.io
 
-The Houndify platform provides HTTP and WebSocket APIs that accept text or audio queries and return structured JSON responses. It is built on SoundHound's proprietary Speech-to-Meaning and Deep Meaning Understanding technologies and supports:
+Everything profiled for SoundHound is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/soundhound/](https://apis.io/providers/soundhound/)** — or go straight to one of the APIs or properties below.
 
-- Voice queries (audio input via streaming or batch)
-- Text queries (natural language text input)
-- Conversation state management across multi-turn dialogues
-- Real-time partial transcripts
-- 100+ languages with edge and cloud deployment options
-- SDKs for Android, iOS, JavaScript, React Native, Java, Go, C++, C#, and Python
+### APIs (2)
 
-**Developer signup:** https://www.houndify.com/signup  
-**Documentation:** https://www.soundhound.com/voice-ai-products/developer/  
-**GitHub SDKs:** https://github.com/soundhound  
-**Terms of Service:** https://www.houndify.com/terms
+- [Houndify Voice AI API](https://apis.io/apis/soundhound/houndify-voice-ai-api/) — The Houndify platform provides HTTP and WebSocket APIs that accept text or audio queries and return actionable JSON responses. Built on SoundHound's…
+- [SoundHound Music Fingerprint Identification API](https://apis.io/apis/soundhound/soundhound-music-fingerprint-identification-api/) — A high-accuracy music recognition API capable of identifying copyrighted music from as little as 2 to 10 seconds of audio with sub-second latency for…
 
-### SoundHound Music Fingerprint Identification API
+### Published properties
 
-A high-accuracy music recognition API capable of identifying music from as little as 2 to 10 seconds of audio with sub-second latency. Designed for enterprise integration.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Contact:** https://www.soundhound.com/contact/
+#### Security (1)
 
-## Authentication
+Authentication, trust centre, and vulnerability disclosure.
 
-Houndify uses a Client ID and Client Key authentication model. Credentials are obtained by registering an application at https://www.houndify.com and can be passed via environment variables (`HOUNDIFY_CLIENT_ID`, `HOUNDIFY_CLIENT_KEY`) or configured directly in SDK clients.
+- [Soundhound Domain Security](https://apis.io/security/soundhound/soundhound-domain-security/)
 
-## Repository Structure
+#### Plans and pricing (2)
 
-```
-apis.yml                          # APIs.json 0.19 root manifest
-plans/
-  houndify-voice-ai.yml           # Houndify Voice AI pricing plans
-  music-id.yml                    # Music ID API pricing plans
-rate-limits/
-  houndify-voice-ai.yml           # Houndify Voice AI rate limit policies
-  music-id.yml                    # Music ID API rate limit policies
-finops/
-  soundhound.yml                  # FinOps guidance for cost management
-```
+Published plans, tiers and prices.
 
-## Links
+- [Houndify Voice Ai](https://apis.io/plans/soundhound/houndify-voice-ai/)
+- [Music Id](https://apis.io/plans/soundhound/music-id/)
 
-- Website: https://www.soundhound.com
-- Developer Platform: https://www.soundhound.com/voice-ai-products/developer/
-- Blog: https://www.soundhound.com/voice-ai-resources/
-- Newsroom: https://www.soundhound.com/newsroom/press-releases/
-- GitHub: https://github.com/soundhound
-- Investor Relations: https://investors.soundhound.com/news-releases
+#### Rate limits (2)
+
+Published request limits.
+
+- [Houndify Voice Ai](https://apis.io/rate-limits/soundhound/houndify-voice-ai/)
+- [Music Id](https://apis.io/rate-limits/soundhound/music-id/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Soundhound](https://apis.io/finops/soundhound/soundhound/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://soundhound.com)
+- [Blog](https://www.soundhound.com/voice-ai-resources/)
+- [Terms of service](https://www.houndify.com/terms)
+- [Status](https://www.saashub.com/soundhound-status)
+
+## API Evangelist rating
+
+**Kin Score 18.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 22.4 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/soundhound/](https://apis.io/providers/soundhound/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for SoundHound: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/soundhound/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
